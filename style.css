@@ -1,10 +1,10 @@
 .website{ 
     display: grid;
-grid-template-columns: 1fr 1fr 1fr 2fr ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: repeat(2, 1fr);
 grid-gap: 2em;
 background-color: hsl(210, 46%, 95%);
-margin: 10em 15em 10em 15em;
+margin: 1em 1em 1em 1em;
 padding: 5em 5em 5em 5em;
 line-height: normal;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -20,9 +20,8 @@ grid-template-areas:
     grid-row: 1/ 1;
     background-color:hsl(263, 55%, 52%);
     color: hsl(0, 0%, 81%);
-    padding: 1em 1em 1em 1em;
-    font-family: Barlow Semi Condensed;
     padding: 2em 2em 2em 2em;
+    font-family: Barlow Semi Condensed;
     border-radius: 25px;
     position: relative;
 
@@ -31,10 +30,10 @@ grid-template-areas:
     position: absolute;
     top: 0;
     right: 0;
-    height: 15em;
+    height: 20em;
     margin-left: 1em;
     margin-right: 10em;
-    margin-top: 1em;
+    margin-top: 3em;
 
   }
 .jonathan{
@@ -43,7 +42,6 @@ grid-template-areas:
     grid-row: 1/ 1;
     background-color: hsl(217, 19%, 35%);
     color:hsl(0, 0%, 81%);
-    padding: 1em 1em 1em 1em;
     padding: 2em 2em 2em 2em;
     border-radius: 25px
 
@@ -54,7 +52,7 @@ grid-template-areas:
     grid-row: 1/ 3;
     background-color: white;
     color:hsl(210, 46%, 95%) ;
-    padding: 1em 1em 1em 1em;
+    padding: 2em 2em 2em 2em;
     color:hsl(219, 29%, 14%) ;
     border-radius: 25px;
     
@@ -65,9 +63,8 @@ grid-template-areas:
     grid-row: 2/ 2;
     background-color: white;
     color:hsl(210, 46%, 95%);
-    padding: 1em 1em 1em 1em;
+    padding:2em 2em 2em 2em;
     color:hsl(219, 29%, 14%);
-    padding: 2em 2em 2em 2em;
     border-radius: 25px
 }
 .patrick{
@@ -76,7 +73,6 @@ grid-template-areas:
     grid-row: 2/ 2;
     background-color:hsl(219, 29%, 14%);
     color:hsl(0, 0%, 81%);
-    padding: 1em 1em 1em 1em;
     padding: 2em 2em 2em 2em;
     border-radius: 25px
 }
